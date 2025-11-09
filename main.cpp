@@ -5,7 +5,7 @@
 int main(int argc, char* argv[])
 {
 	// Load a BMP file into memory
-	auto result = LoadFileToMemory("sample.bmp", true);
+	auto result = LoadFileToMemory("../sample.bmp", true);
 
 	// Read its data
 	ReadBmpData();
